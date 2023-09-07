@@ -1,0 +1,18 @@
+package test004.exercise.view;
+
+import test004.exercise.dao.MemberDO;
+
+public class MemberViewer {
+	public void showMessage(String line) {
+		System.out.print(line);
+	}
+	
+	public void showMember(MemberDO member) {
+		this.showMessage(member.getId());
+		this.showMessage(member.getPassword());
+		this.showMessage(member.getContact());
+		this.showMessage(member.getEmail());
+		this.showMessage(member.getRegisteredDate());
+		this.showMessage(member.getModifiedDate());
+	}
+}

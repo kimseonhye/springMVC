@@ -1,0 +1,8 @@
+package test003;
+
+public class Greeting {
+	public void calculate(int fNum, int sNum, IGreeting calculator) {
+		int value = greeting(fNum, sNum);
+		System.out.println("result : " + value);
+	}
+}

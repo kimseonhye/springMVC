@@ -1,0 +1,13 @@
+package test004.exercise.dao;
+
+public class MemberDO {
+	private String id;
+	private String password;
+	private String email;
+	private String registeredDate;
+	private String modifiedDate;
+	public MemberDO(String id, String password, String contact, String email, String registeredDate, String modifiedDate) {
+		this.id = id;
+		
+	}
+}

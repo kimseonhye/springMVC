@@ -1,0 +1,13 @@
+package ch05_pjt_01.contact;
+
+public class AutoWiredEx {
+	public AutoWiredEx(FirstBean fBean, SecondBean sBean) {
+		System.out.println("fBean : " + fBean);
+		System.out.println("sBean : " + sBean);
+	}
+	
+	public void autoWiredMethod(ThirdBean tBean, FourthBean fBean) {
+		System.out.println("tBean : " + tBean);
+		System.out.println("fBean : " + fBean);
+	}
+}

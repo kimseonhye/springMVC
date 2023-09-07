@@ -1,0 +1,53 @@
+package ch06_pjt_01.ems.configuration;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import ch06_pjt_01.ems.member.dao.StudentDAO;
+import ch06_pjt_01.ems.member.service.PrintStudentInformationService;
+import ch06_pjt_01.ems.member.service.StudentAllSelectService;
+import ch06_pjt_01.ems.member.service.StudentDeleteService;
+import ch06_pjt_01.ems.member.service.StudentModifyService;
+import ch06_pjt_01.ems.member.service.StudentRegisterService;
+import ch06_pjt_01.ems.member.service.StudentSelectService;
+
+@Configuration
+public class MemberConfig1 {
+	
+	@Bean
+	public StudentDAO studentDAO() {
+		return new StudentDAO();
+	}
+	
+	@Bean
+	public StudentRegisterService studentRegisterService() {
+		return new StudentRegisterService(studentDAO());
+	}
+	
+	@Bean
+	public StudentModifyService studentModifyService() {
+		return new StudentModifyService(studentDAO());
+	}
+	
+	@Bean
+	public StudentDeleteService studentDeleteService() {
+		return new StudentDeleteService(studentDAO());
+	}
+	
+	@Bean
+	public StudentSelectService studentSelectService() {
+		return new StudentSelectService(studentDAO());
+	}
+	
+	@Bean
+	public StudentAllSelectService studentAllSelectService() {
+		return new StudentAllSelectService(studentDAO());
+	}
+	
+	@Bean
+	public PrintStudentInformationService printStudentInformationService() {
+		return new PrintStudentInformationService(studentAllSelectService());
+	}
+	
+	
+}

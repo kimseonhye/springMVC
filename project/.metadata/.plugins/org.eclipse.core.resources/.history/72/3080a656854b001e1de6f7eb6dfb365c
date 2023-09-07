@@ -1,0 +1,5 @@
+package test004.member.service;
+
+public class MemberRegisterService {
+
+}

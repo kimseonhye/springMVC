@@ -1,0 +1,5 @@
+package test004.ems.member.service;
+
+public class MemberDeleteService {
+
+}

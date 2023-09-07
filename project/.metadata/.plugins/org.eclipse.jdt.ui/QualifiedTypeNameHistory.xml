@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ch04_pjt_01.ems.member.dao.StudentDAO"/>
+    <fullyQualifiedTypeName name="ch04_pjt_01.ems.utils.InitSampleData"/>
+    <fullyQualifiedTypeName name="ch04_pjt_01.ems.member.service.StudentRegisterService"/>
+    <fullyQualifiedTypeName name="ch04_pjt_01.ems.member.service.PrintStudentInformationService"/>
+    <fullyQualifiedTypeName name="ch04_pjt_01.ems.member.Student"/>
+    <fullyQualifiedTypeName name="ch04_pjt_01.ems.member.service.StudentSelectService"/>
+    <fullyQualifiedTypeName name="ch04_pjt_01.ems.member.service.StudentModifyService"/>
+    <fullyQualifiedTypeName name="ch05_pjt_01.contact.dao.ContactDAO"/>
+    <fullyQualifiedTypeName name="ch05_pjt_01.contact.ContactSet"/>
+    <fullyQualifiedTypeName name="ch05_pjt_01.contact.utils.InitSampleData"/>
+    <fullyQualifiedTypeName name="ch05_pjt_01.contact.service.ContactRegisterService"/>
+    <fullyQualifiedTypeName name="ch05_pjt_01.contact.service.ContactSearchService"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.member.dao.StudentDAO"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.member.service.StudentRegisterService"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.member.service.EMSInformationService"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.member.service.StudentModifyService"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.member.service.StudentDeleteService"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.member.service.StudentSelectService"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.member.service.StudentAllSelectService"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.member.service.PrintStudentInformationService"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.configuration.MemberConfig"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.member.DBConnectionInfo"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.utils.InitSampleData"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.configuration.MemberConfig3"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Import"/>
+    <fullyQualifiedTypeName name="ch06_pjt_01.ems.configuration.MemberConfigImport"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="test004.exercise.view.MemberViewer"/>
+    <fullyQualifiedTypeName name="test004.exercise.dao.MemberDAO"/>
+    <fullyQualifiedTypeName name="test004.exercise.utils.InitSampleData"/>
+    <fullyQualifiedTypeName name="test004.exercise.controller.MemberController"/>
+    <fullyQualifiedTypeName name="test004.exercise.dao.MemberDO"/>
+</qualifiedTypeNameHistroy>

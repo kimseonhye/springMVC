@@ -1,0 +1,28 @@
+package test004.ems.member.dao;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MemberDAO {
+	private Map<String, Member> memberDB = new HashMap<String, Member>();
+	
+	public void insert(Member member) {
+		memberDB.put(member.getsNum(), member);
+	}
+	
+	public Member select(String sNum) {
+		return memberDB.get(sNum);
+	}
+	
+	public void update(Member member) {
+		memberDB.put(member.getsNum(), member);
+	}
+	
+	public void delete(String sNum) {
+		memberDB.remove(sNum);
+	}
+	
+	public Map<String, Member> getStudentDB() {
+		return memberDB;
+	}
+}

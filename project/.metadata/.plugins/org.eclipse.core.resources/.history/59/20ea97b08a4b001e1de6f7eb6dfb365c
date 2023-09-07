@@ -1,0 +1,5 @@
+package test004.exercise.dao;
+
+public class MemberDAO {
+
+}

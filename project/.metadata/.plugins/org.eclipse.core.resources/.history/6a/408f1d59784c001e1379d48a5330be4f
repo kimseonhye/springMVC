@@ -1,0 +1,38 @@
+package Configuration;
+
+@Configuration
+public class MemberConfig {
+	
+	@Bean
+	public MemberViewer memberViewer() {
+		return new MemberViewer();
+	}
+	
+	@Bean
+	public MemberDAO memberDAO() {
+		return new MemberDAO();
+	}
+	
+	@Bean
+	public MemberController memberController() {
+		MemberController memberController = new MemberController(memberDAO(), memberViewer());
+		return memberController;
+	}
+	
+	@Bean
+	public InitSampleData initSampleData() {
+		InitSampleData initSampleData = new InitSampleData();
+		String[] ids = {"hbs001", "hbs002", "hbs003"};
+		initSampleData.setIds(ids);
+		String[] passwords = {"hbs001", "hbs002", "hbs003"};
+		initSampleData.setPasswords(passwords);
+		String[] contacts = {"hbs001", "hbs002", "hbs003"};
+		initSampleData.setContacts(contacts);
+		String[] emails = {"hbs001", "hbs002", "hbs003"};
+		initSampleData.setEmails(emails);
+		String[] regiseteredDates = {"hbs001", "hbs002", "hbs003"};
+		initSampleData.setRegisteredDates(regiseteredDates);
+		String[] modifiedDates = {"hbs001", "hbs002", "hbs003"};
+		initSampleData.setmodifiedDates(modifiedDates);
+	}
+}

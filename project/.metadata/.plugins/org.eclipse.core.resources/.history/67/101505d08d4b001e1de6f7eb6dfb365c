@@ -1,0 +1,21 @@
+package test004.exercise.controller;
+
+import test004.exercise.dao.MemberDAO;
+import test004.exercise.dao.MemberDO;
+import test004.exercise.view.MemberViewer;
+
+public class MemberController {
+	private MemberDAO memberDao;
+	private MemberViewer memberViewer;
+	
+	public MemberController(MemberDAO memberDao) {
+		this.memberDao = memberDao;
+	}
+	public void insert(MemberDO memberDo) {
+		
+	}
+	public boolean verify(String id) {
+		MemberDO member = memberDao.select(id);
+		return member == null ? true : false;
+	}
+}
